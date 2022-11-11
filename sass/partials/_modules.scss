@@ -1,3 +1,11 @@
+@media all and (orientation:portrait){
+    .about-s1{
+        background-position-x: 40%!important;
+    }
+    .cookies-s1,.index-s1{
+        background-position-x: 50%!important;
+    }
+}
 .about.contact{
     &-s1{
         background-position: center!important;
@@ -14,16 +22,14 @@
         background-blend-mode: multiply;
     }
 }
-.index{
-    &-s1{
-        background-color: #aaa;
-        background-blend-mode: multiply;
-    }
-}
 .z{
     &-1{
         z-index: 1;
     }
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Lobster";
+    letter-spacing: 1px;
 }
 header{
     z-index: 100!important;
@@ -49,6 +55,12 @@ textarea{
                 text-shadow: $text-shadow;
             }
             background-color: #aaa!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .index{
+        &-s1{
+            background-color: #aaa;
             background-blend-mode: multiply;
         }
     }
